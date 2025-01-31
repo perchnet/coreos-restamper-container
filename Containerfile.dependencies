@@ -1,0 +1,3 @@
+ARG image=registry.fedoraproject.org/fedora:41
+FROM ${image}
+RUN dnf install -y coreos-installer guestfish pv
